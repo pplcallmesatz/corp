@@ -22,6 +22,18 @@
             padding: 3rem 1.5rem;
             text-align: center;
         }
+        .tile__title{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: cornflowerblue;
+        }
+        .tile {
+            padding: 20x;
+            margin: 10px;
+            background: #ccc;
+            
+        }
     </style>
 </head>
 
@@ -44,197 +56,110 @@ data-toggle="table" data-classes="table table-hover"
  data-locale="en-US">
                 <thead>
                 <tr> 
+                    <th></th>
                     <th class="one" data-sortable="true">One</th>
                     <th class="two" data-sortable="true">two</th>
                     <th class="three" data-sortable="true">three</th>
                     <th class="four" data-sortable="true">four</th>
                     </tr>
                 </thead>
-                <tbody>
-                                <tr> 
+                <tbody id="foo">
+                    <tr>
+                        <td><i class="glyphicon glyphicon-th drag"></i></td>
+                                <td class="one" data-sortable="true">1</td>
+                    <td class="two" data-sortable="true">1</td>
+                    <td class="three" data-sortable="true">1</td>
+                    <td class="four" data-sortable="true">1</td>
+                        </tr>
+                    <tr>
+                                                <td><i class="glyphicon glyphicon-th drag"></i></td>
 
-                    <td class="one">One ddd</td>
+                                <td class="one" data-sortable="true">2</td>
+                    <td class="two" data-sortable="true">2</td>
+                    <td class="three" data-sortable="true">2</td>
+                    <td class="four" data-sortable="true">2</td>
+                        </tr>
+                       <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
 
-                    <td class="two">two ddd</td>
+                                <td class="one" data-sortable="true">3</td>
+                    <td class="two" data-sortable="true">3</td>
+                    <td class="three" data-sortable="true">3</td>
+                    <td class="four" data-sortable="true">3</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
 
-                    <td class="three">three ddd</td>
+                                <td class="one" data-sortable="true">4</td>
+                    <td class="two" data-sortable="true">4</td>
+                    <td class="three" data-sortable="true">4</td>
+                    <td class="four" data-sortable="true">4</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
 
-                    <td class="four">four ddd</td>
+                                <td class="one" data-sortable="true">5</td>
+                    <td class="two" data-sortable="true">5</td>
+                    <td class="three" data-sortable="true">5</td>
+                    <td class="four" data-sortable="true">5</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
 
-                    </tr>
+                                <td class="one" data-sortable="true">6</td>
+                    <td class="two" data-sortable="true">6</td>
+                    <td class="three" data-sortable="true">6</td>
+                    <td class="four" data-sortable="true">6</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
+
+                                <td class="one" data-sortable="true">7</td>
+                    <td class="two" data-sortable="true">7</td>
+                    <td class="three" data-sortable="true">7</td>
+                    <td class="four" data-sortable="true">7</td>
+                        </tr>
                     
-                               <tr> 
-
-                    <td class="one">aaaasas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>  <tr> 
-
-                    <td class="one">asas ddd</td>
-
-                    <td class="two">two ddd</td>
-
-                    <td class="three">three ddd</td>
-
-                    <td class="four">four ddd</td>
-
-                    </tr>
-
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
+
+                                <td class="one" data-sortable="true">8</td>
+                    <td class="two" data-sortable="true">8</td>
+                    <td class="three" data-sortable="true">8</td>
+                    <td class="four" data-sortable="true">8</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
+
+                                <td class="one" data-sortable="true">9</td>
+                    <td class="two" data-sortable="true">9</td>
+                    <td class="three" data-sortable="true">9</td>
+                    <td class="four" data-sortable="true">9</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
+
+                                <td class="one" data-sortable="true">10</td>
+                    <td class="two" data-sortable="true">10</td>
+                    <td class="three" data-sortable="true">10</td>
+                    <td class="four" data-sortable="true">10</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
+
+                                <td class="one" data-sortable="true">11</td>
+                    <td class="two" data-sortable="true">11</td>
+                    <td class="three" data-sortable="true">11</td>
+                    <td class="four" data-sortable="true">11</td>
+                        </tr>
+                      <tr>
+                                                   <td><i class="glyphicon glyphicon-th drag"></i></td>
+
+                                <td class="one" data-sortable="true">12</td>
+                    <td class="two" data-sortable="true">12</td>
+                    <td class="three" data-sortable="true">12</td>
+                    <td class="four" data-sortable="true">12</td>
+                        </tr>
                 </tbody>
                 </table>
             </div>
@@ -242,7 +167,6 @@ data-toggle="table" data-classes="table table-hover"
     </div>
     <!-- /.container -->
 
-    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -258,12 +182,29 @@ data-toggle="table" data-classes="table table-hover"
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
-
+<!--
+<ul id="foo">
+    
+-->
+<!--
+    <li>
+    <div class="drag-handle glyphicon glyphicon-trash">ee</div>
+    </li>
+    <li>
+    <div class="drag-handle glyphicon glyphicon-trash">vsdv</div>
+    </li>
+    </ul>
+-->
 <!-- Latest compiled and minified Locales -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
+<script src="https://rubaxa.github.io/Sortable/Sortable.js"></script>
     <script>
+        //SORTABLE
         (function() {
+	
             'use strict'
+var foo = document.getElementById("foo");
+Sortable.create(foo, { group: "omega",
+                     handle: '.drag'});
 
             if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
                 var msViewportStyle = document.createElement('style')
